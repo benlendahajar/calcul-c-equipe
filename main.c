@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>
 
 int produit(int a, int b) {
     return a * b;
@@ -9,7 +9,7 @@ float moyenne(int a, int b) {
 }
 
 int main(void) {
-    printf("Message modifie sur main\n");
+    printf("Message final de l'equipe\n");
     printf("Produit de 3 et 4 = %d\n", produit(3, 4));
     printf("Moyenne de 3 et 4 = %.2f\n", moyenne(3, 4));
     return 0;
